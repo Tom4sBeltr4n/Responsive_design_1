@@ -1,4 +1,10 @@
-/*Mobile design first*/
+*
+{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
 *
 {
     box-sizing:border-box;/*Avoids box problems*/
@@ -99,31 +105,24 @@ footer ul
 {
     list-style: none;
     background-color: inherit;
-    display: flex;
-    align-items: center;
-    flex-direction: column;  
+    margin-top: 20px;
 }
 
 footer li
 {
-    padding-top: 1px;
-}
-
-footer li:nth-child(2)
-{
-    margin-left: -19px;
+    display: inline;
+    margin:2px 20px 2px 5px;
+    font-size: 18px;
 }
 
 footer li:first-child
 {
-    padding-top: 10px;
-    margin-left: -21px;
+    padding-top: 5px;
 }
 
 footer li:last-child
 {
     margin-top: -3px;
-    margin-left: -18px;
 }
 
 footer li:last-child
