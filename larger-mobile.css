@@ -35,6 +35,8 @@ header
     justify-content: center;
     height:10vh;
     width: 100vw;
+    min-height: 59.4px;
+    max-width: 100%;/*needed when vertical scroll is generated because oðerwise vw includes vertical bar as viewport*/
 }
 
 header a:only-of-type
