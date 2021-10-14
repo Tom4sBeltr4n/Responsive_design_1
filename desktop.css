@@ -19,11 +19,6 @@ body
     font-size: 1.6rem;
 }
 
-/* header, main, footer 
-{
-    flex-shrink: 0;
-}*/
-
 header
 {
     background-color: #006600;
