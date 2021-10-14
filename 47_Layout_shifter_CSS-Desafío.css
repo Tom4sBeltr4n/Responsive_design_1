@@ -78,21 +78,21 @@ aside
 
 aside img
 {
-    margin: 9% 9% 7% 9%;
-    width:82%;
+    margin: 4.5% 4.5% 2%;
+    width:91%;
 }
 
 aside figcaption
 {
     text-align: justify;
-    text-indent: 25px;
-    padding: 0px 15px 10px 5px;
+    padding: 0px 9% 4% 9%;
 }
 
 footer
 {
     background-color: #007537;
     text-align: center;
+    padding-top: 1%;
 }
 
 footer ul
@@ -107,6 +107,7 @@ footer ul
 footer li
 {
     padding-top: 1px;
+    font-size: 1.8rem;
 }
 
 footer li:nth-child(2)

@@ -1,12 +1,5 @@
 *
 {
-    box-sizing:border-box;
-    margin: 0;
-    padding: 0;
-}
-
-*
-{
     box-sizing:border-box;/*Avoids box problems*/
     margin:0; /*(avoids body margins from disrupting design)*/
     padding:0;
@@ -86,21 +79,22 @@ aside
 
 aside img
 {
-    margin: 9% 9% 7% 9%;
-    width:82%;
-}
+    margin: 4.5% 4.5% 2%;
+    width:91%;
+    /* height: 80%; */
+} 
 
 aside figcaption
 {
     text-align: justify;
-    text-indent: 25px;
-    padding: 0px 15px 10px 5px;
+    margin: 0 0 4% 9%;
 }
 
 footer
 {
     background-color: #007537;
     text-align: center;
+    padding-top: 1%;
 }
 
 footer ul
