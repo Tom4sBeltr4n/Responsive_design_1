@@ -1,7 +1,7 @@
 *
 {
-    box-sizing:border-box;/*Avoids box problems*/
-    margin:0; /*(avoids body margins from disrupting design)*/
+    box-sizing:border-box;
+    margin:0;
     padding:0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -19,17 +19,20 @@ body
     font-size: 1.6rem;
 }
 
+/* header, main, footer 
+{
+    flex-shrink: 0;
+}*/
+
 header
 {
     background-color: #006600;
+    height: 10vh;
+    width: 100vw;
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: center;
-    height:10vh;
-    width: 100vw;
-    min-height: 59.4px;
-    max-width: 100%;/*needed when vertical scroll is generated because oðerwise vw includes vertical bar as viewport*/
+    max-width:100%;
 }
 
 header a:only-of-type
@@ -40,7 +43,7 @@ header a:only-of-type
 
 .logo
 {
-    width:50px;
+    width: 50px;
     height:50px;
     display: inline;
 }
@@ -53,36 +56,56 @@ header h1
 
 header ul
 {
-    /* text-align: center;Needed for horizontal lists and navs */
     display: none;
 }
 
+/*
 header ul li
 {
     display: inline;
-    margin-left: 2%;
-}
+    margin:10px;
+}*/
 
-main 
+.container /*added to fix footer */
 {
-    padding: 3% 5% 3% 4%;
+    display: flex; 
+    flex-direction: row; 
+    flex-grow: 1;
+    flex-shrink:0;
 }
 
 aside
 {
-    background-color:lightcoral;
+    width:25vw;
+    max-width: 250px;
+    background-color: lightcoral;
+    display: flex;
+    order: 0;
+    flex-direction: column;
 }
 
 aside img
 {
-    margin: 4.5% 4.5% 2%;
-    width:91%;
-} 
+    height: 120px;
+    width: 92%;
+    margin:4% 4% 4% 4%
+}
 
 aside figcaption
 {
     text-align: justify;
-    margin: 0 0 4% 9%;
+    text-indent: 5rem;
+    padding: 0px 6.9% 4% 4%;
+    margin: 0;
+}
+
+main
+{
+    display: flex;
+    width:75vw;
+    padding: 1% 2% 0 1%;
+    text-indent: 2em;
+    order:2
 }
 
 footer
@@ -95,7 +118,6 @@ footer
 footer ul
 {
     list-style: none;
-    background-color: inherit;
     margin-top: 20px;
 }
 
@@ -104,21 +126,6 @@ footer li
     display: inline;
     margin:2px 20px 2px 5px;
     font-size: 18px;
-}
-
-footer li:first-child
-{
-    padding-top: 5px;
-}
-
-footer li:last-child
-{
-    margin-top: -3px;
-}
-
-footer li:last-child
-{
-    margin-top: -5px;
 }
 
 footer img
@@ -131,7 +138,8 @@ footer img
 footer #whatsapp
 {
     width: 24px;
-    margin: -1px -1px -1px -1px
+    margin: 0px;
+    margin-bottom: 1px;
 }
 
 footer #Instagram
@@ -151,11 +159,4 @@ footer #Twitter
     height:16px;
     width:16px;
     margin-right: 5px;
-}
-
-footer p
-{
-    font-size: 1.4rem;
-    padding-bottom: 10px;
-    text-align: center;
-}
+} 
