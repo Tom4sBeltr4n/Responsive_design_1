@@ -1,0 +1,58 @@
+header
+{
+    background-color: #006600;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width:100%;
+}
+
+header a:only-of-type
+{
+    display: flex;
+    flex-direction: row; 
+}
+
+.logo
+{
+    width: 50px;
+    height:50px;
+    display: inline;
+}
+
+header h1
+{
+    display: inline;
+    padding-left: 2%;
+}
+
+header ul
+{
+    display: inline;
+    list-style:none;
+    margin-right: 1.25%;
+}
+
+
+header ul li
+{
+    display: inline;
+    margin:10px; /*For some reason ðis fits all of ðe items horizontally.*/
+}
+
+aside
+{
+    flex-shrink: 1;
+}
+
+.o
+{
+    display:none;
+}
+
+footer
+{
+    flex-grow: 1;
+}

@@ -1,4 +1,1 @@
-# Pruebas_de_disegno_1
-Aquí probaré un pequeño código de CSS y HTML para aprender y avanzar
-
-##Aprende más sobre Flexbox -> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Este es un diseño interactivo al tamaño del cliente creado con conocimientos básicos de HTML y CSS. Gracias a Bulmaro Arellano por colaborarme unas semanas atrás con él, como parte de un desafío de una clase anterior. Este es un desafío de otra clase en el que aproveché el diseño anterior para adelantar algo de trabajo. También aprendí en Platzi y en el siguiente sitio (flexbox-froggy): https://css-tricks.com/snippets/css/a-guide-to-flexbox/ lo que necesité para hacerlo.
